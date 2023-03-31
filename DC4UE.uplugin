@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Dual Contouring For Unreal Engine",
+	"Description": "A Dual Contouring implementation for Unreal Engine meshes.",
+	"Category": "Rendering",
+	"CreatedBy": "FilUnderscore",
+	"CreatedByURL": "https://github.com/FilUnderscore",
+	"SupportURL": "https://github.com/FilUnderscore/DC4UE/issues",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DualContouring",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DualContouringEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
