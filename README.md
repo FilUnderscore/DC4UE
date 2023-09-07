@@ -9,3 +9,6 @@ In simple terms, Dual Contouring is a method that generates a mesh representing 
 * Place the folder containing the root of the repository into the `Plugins` folder of your Unreal Project.
 * Recompile the plugin when prompted after opening Unreal Engine
 * Make sure the plugin is enabled in the Plugins section of the project.
+
+## Dependencies
+* This plugin requires the [RuntimeMeshComponent](https://github.com/TriAxis-Games/RealtimeMeshComponent) plugin to be installed and enabled in your project.
